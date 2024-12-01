@@ -13,20 +13,20 @@ function changeApart(num) {
     }
     switch(num){
         case 0:
-            img.src = './mms/deportes.png'; //Si la opcion uno es marcada, se cambiaran los elementos previamente obtenidos con su id y sus propiedades html
+            img.src = 'deportes.png'; //Si la opcion uno es marcada, se cambiaran los elementos previamente obtenidos con su id y sus propiedades html
             text.textContent = 'DEPORTES';
             href.href = 'deportes.html';
             inf.textContent = 'En esta seccion encontraras el equipo necesario para cualquier deporte, asi como su mercancia e incluso material exclusivo de marcas.'
             //src = Ruta de la imagen     textContent = Texto que tiene contenido el elemento   href = Ruta hacia donde nos redirige 
         break;
         case 1:
-            img.src = './mms/ropac.png';
+            img.src = 'ropac.png';
             text.textContent = 'ROPA';
             href.href = 'ropa.html';
             inf.textContent = 'Podras encontrar sin fin de diferentes tipos de ropa. Limpio, seguro, rapido y optimizado para que tu vestimenta llegue justo a tiempo.';
         break;
         case 2:
-            img.src = './mms/gaming.png';
+            img.src = 'gaming.png';
             text.textContent = 'GAMING';
             href.href = 'gaming.html';
             inf.textContent = 'Equipos recientes para el mundo de los videojuegos, sirviendo tambien para trabajos de oficina, renderizado y muchos mas. Con los mejores materiales y componentes.';
