@@ -1,0 +1,177 @@
+html{
+    scroll-behavior: smooth; /* Hace que el cambio entre secciones de la pagina sea suave cuando se utilizan los elementos a */
+}
+*:not(a){ /* Todos los elementos menos el que se indica en los parentesis del not */
+    cursor: default; 
+}
+.h1S{
+    font-size: 50px;
+    color: #032546;
+}
+.card-img-top{
+    padding: 20px;
+}
+.desPro{
+    width: 75%;
+    font-size: 14px;
+    text-align: center;
+}
+.h6S{
+    color: #07411f;
+    font-weight: 400;
+    padding-left: 3px;
+}
+.navHref{
+    padding: 6px 15px 6px 15px;
+    border-radius: 10px;
+    color: #000;
+}
+.textNoDec{
+    text-decoration: none;
+}
+.navHref:hover{
+    background-color: #e4dddd;
+}
+.centerFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shadowBox{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+.textL{
+    text-align: left;
+}
+.paddingContHn{
+    padding: 14px 10px 12px 10px;
+}
+.opsHref{
+    margin-inline: 8px; /* Margen en el plano x */
+    padding: 9px 9px 9px 9px; /* top left bottom right */
+    background-color: #e4dddd;
+}
+.opsHref:hover{
+    background-color: #bbb6b6;
+}
+.borderCi{
+    border-radius: 50%; /* Hace que nuestros elementos completamente circulares */
+}
+.transition{
+    transition: 500ms ease; /* Nos da una animacion suave para los cambios dinamicos que podamos llegar a hacer en los elementos */
+    /* ms es milisegundos */
+}
+.pLow{
+    opacity: 0.8;
+}
+.textSectionMain{
+    width: 80%;
+}
+.card{
+    margin: 20px;
+}
+.lblChange{
+    margin-inline: 4px;
+    background-color: #e4dddd;
+    cursor: pointer;
+}
+.p6Tod, #btnSubir{
+    padding: 6px 6px 6px 6px;
+}
+.h1Footer{
+    color: #032546;
+    font-size: 20px;
+}
+.imgAside{
+    width: 380px;
+    filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.2)); /* Le da una caja de sombra las imagenes png */
+}
+.imgEn{
+    width: 20px;
+    margin: 0px 5px 3px 5px;
+}
+.card-body a:hover{ /* hover es evento de los elementos  */
+    transition: 300ms ease;
+    background-color: #07411f;
+    transform: scale(1.1); /* Transforma el tamaño del elemento */
+}
+.lblEn{
+    width: 27%;
+    background-color: #f1eeee;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.secSecon{
+    background-color: #f1eeee;
+}
+.lblEn:hover{
+    background-color: #e4dddd;
+}
+.divLI{
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.divLI input{
+    outline: none;
+    border: none;
+    cursor: auto;
+}
+.lblNB{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #e4dddd;
+}
+.disabled{
+    display: none;
+}
+#lblNext{
+    transform: rotate(180deg);
+}
+#lblChange1{
+    background-color: #368f5b;
+}
+#btnSubir{
+    margin-left: 10px;
+}
+#navHrefPrin{
+    background-color: #07411f;
+    color: #fff;
+}
+#imgPro{
+    width: 290px;
+    height: 480px;
+}
+.pLow a{
+    color: #000;
+    opacity: 0.8;
+}
+#secPrinProduct{
+    height: 500px;
+}
+#mainAs{
+    height: 500px;
+}
+.card-body a, #btnPrinSM, #btnNos, #btnCompra{
+    background-color: #032546;
+    border: none;
+    padding: 5px 14px 5px 14px;
+}
+#nav{
+    justify-content: space-evenly;
+}
+#ops img{
+    width: 13px;
+}
+#iconHeader{
+    width: 28px;
+    margin-inline: 3px;
+}
+#secPr{
+    padding: 30px 0px 30px 0px;
+}
+iframe{
+    margin-bottom: 15px;
+}

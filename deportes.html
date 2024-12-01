@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Baraton</title>
+    <link rel="icon" href="mms/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/scriptProduct.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="contHn" class="row shadowBox">
+            <header class="col-12 col-sm-4 col-md-4 centerFlex paddingContHn">
+                <img id="iconHeader" src="mms/icon.png" alt="icon">
+                <h3 class="m-0">Don Baraton - Deportes</h3>
+            </header>
+            <nav id="nav" class="col-12 col-sm-8 col-md-4 centerFlex paddingContHn">
+                <a id="navHrefPrin" class="navHref textNoDec" href="index.html">Inicio</a>
+                <a class="navHref textNoDec transition" href="index.html#secMbros">Acerca</a>
+                <a class="navHref textNoDec transition" href="index.html#secEn">Entregas</a>
+                <a id="categoria" class="navHref textNoDec transition disabled">deportes</a>
+            </nav>
+            <div id="ops" class="col-0 col-sm-0 col-md-4 centerFlex paddingContHn">
+                <a class="centerFlex opsHref transition borderCi" href="#secPedido"><img src="mms/tel.png" alt=""></a>
+                <a class="centerFlex opsHref transition borderCi" href="index.html#secUbi"><img src="mms/ubi.png" alt=""></a>
+                <a class="centerFlex opsHref transition borderCi" href="https://www.instagram.com/donbaraton.es"><img src="mms/ig.png" alt=""></a>
+            </div>
+        </div><br>
+        <main id="secMain" class="row">
+            <div class="col-2 col-sm-3 col-md-4 centerFlex">
+                <center>
+                    <label class="shadowBox borderCi lblNB" id="lblBack" onclick="changeProduct('back')">←</label>
+                </center>
+            </div>
+            <div class="col-8 col-sm-6 col-md-4 centerFlex">
+                <center>
+                    <img id="imgPro" src="mms/deportes/1.png" alt="Producto">
+                </center>
+            </div>
+            <div class="col-2 col-sm-3 col-md-4 centerFlex">
+                <center>
+                    <label class="shadowBox borderCi lblNB" id="lblNext" onclick="changeProduct('next')">←</label>
+                </center>
+            </div>
+        </main><br><br>
+        <section id="secPedido" class="row secSecon pt-4">
+            <div class="col-md-6 centerFlex">
+                <center>
+                    <h6 class="h6S">Area de</h6>
+                    <h1 class="h1S">PEDIDOS</h1><br>
+                </center>
+            </div>
+            <div class="col-md-6"><br><br>
+                <center>
+                    <form action="">
+                        <div class="divLI centerFlex"><label for="">Nombre del cliente</label><input type="text" required title="Nombre"></div><br>
+                        <div class="divLI centerFlex"><label for="">Direccion del cliente</label><input type="text" required title="Direccion"></div><br>
+                        <div class="divLI centerFlex"><label for="">Nombre del producto</label><input type="text" required title="Producto"></div><br>
+                        <div class="divLI centerFlex"><label for="">Cantidad requerida</label><input type="text" required title="Cantidad"></div><br><br>
+                        <input id="btnCompra" type="submit" class="btn btn-primary" value="Comprar">
+                    </form>
+                </center><br><br>
+            </div>
+        </section><br><br>
+        <footer id="footerPage" class="row">
+            <div class="col-md-3">
+                <center>
+                    <h1 class="h1Footer">Locaciones</h1>
+                    <p class="pLow">Mexico</p>
+                    <p class="pLow">Argentina</p>
+                    <p class="pLow">Brasil</p>
+                </center>
+            </div>
+            <div class="col-md-3">
+                <center>
+                    <h1 class="h1Footer">Links</h1>
+                    <p class="pLow"><a class="textNoDec" href="index.html">Inicio</a></p>
+                    <p class="pLow"><a class="textNoDec" href="index.html#secPr">Relevantes</a></p>
+                    <p class="pLow"><a class="textNoDec" href="index.html#secEn">Entregas</a></p>
+                </center>
+            </div>
+            <div class="col-md-3">
+                <center>
+                    <h1 class="h1Footer">Contacto</h1>
+                    <p class="pLow">+52 5513086165</p>
+                    <p class="pLow">+52 7789906788</p>
+                    <p class="pLow">+52 7927812919</p>
+                </center>
+            </div>
+            <div class="col-md-3">
+                <center>
+                    <h1 class="h1Footer">Siguenos</h1>
+                    <p class="pLow"><a class="textNoDec" href="#https://instagram.com/">cuenta ig</a></p>
+                </center>
+            </div>
+        </footer>
+</body>
+</html>
