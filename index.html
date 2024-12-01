@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Don Baraton</title>
-    <link rel="icon" href="icon.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <script src="script.js"></script>
-    <script src="bootstrap.min.js"></script>
+    <link rel="icon" href="mms/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="container-fluid">
         <div id="contHn" class="row shadowBox">
             <header class="col-12 col-sm-4 col-md-4 centerFlex paddingContHn">
-                <img id="iconHeader" src="icon.png" alt="icon">
+                <img id="iconHeader" src="mms/icon.png" alt="icon">
                 <h3 class="m-0">Don Baraton</h3>
             </header>
             <nav id="nav" class="col-12 col-sm-8 col-md-4 centerFlex paddingContHn">
@@ -24,15 +23,15 @@
                 <a class="navHref textNoDec transition" href="#secMbros">Acerca</a>
             </nav>
             <div id="ops" class="col-0 col-sm-0 col-md-4 centerFlex paddingContHn">
-                <a class="centerFlex opsHref transition borderCi" href="#footerPage"><img src="tel.png" alt=""></a>
-                <a class="centerFlex opsHref transition borderCi" href="#secUbi"><img src="ubi.png" alt=""></a>
-                <a class="centerFlex opsHref transition borderCi" href="https://www.instagram.com/donbaraton.es"><img src="ig.png" alt=""></a>
+                <a class="centerFlex opsHref transition borderCi" href="#footerPage"><img src="mms/tel.png" alt=""></a>
+                <a class="centerFlex opsHref transition borderCi" href="#secUbi"><img src="mms/ubi.png" alt=""></a>
+                <a class="centerFlex opsHref transition borderCi" href="https://www.instagram.com/donbaraton.es"><img src="mms/ig.png" alt=""></a>
             </div>
         </div><br><br>
-        <main id="mainAs" class="row">
+        <section class="row mainAs">
             <aside class="col-12 col-sm-6 col-md-6 centerFlex">
                 <center>
-                    <img id="imgAside" src="deportes.png" alt="img" class="imgAside transition">
+                    <img id="imgAside" src="mms/deportes.png" alt="img" class="imgAside transition">
                 </center>
             </aside>
             <section class="col-12 col-sm-6 col-md-6 centerFlex">
@@ -47,14 +46,45 @@
                     </div>
                 </center>
             </section>
-            <footer class="col-12"><br>
+        </section><br><br>
+        <section class="row mainAs">
+            <aside class="col-12 col-sm-6 col-md-6 centerFlex">
                 <center>
-                    <label name="lbls" id="lblChange1" class="borderCi transition lblChange p6Tod" onclick="changeApart(0)"></label>
-                    <label name="lbls" id="lblChange2" class="borderCi transition lblChange p6Tod" onclick="changeApart(1)"></label>
-                    <label name="lbls" id="lblChange3" class="borderCi transition lblChange p6Tod" onclick="changeApart(2)"></label>
+                    <img id="imgAside" src="mms/ropac.png" alt="img" class="imgAside transition">
                 </center>
-            </footer>
-        </main><br><br>
+            </aside>
+            <section class="col-12 col-sm-6 col-md-6 centerFlex">
+                <center>
+                    <h6 class="h6S textL textSectionMain">Nuestras ventas especiales en</h6>
+                    <h1 id="hApart" class="h1S textL textSectionMain">ROPA</h1>
+                    <p id="infApart" class=" textL textSectionMain pLow">Podras encontrar sin fin de diferentes tipos de ropa. Limpio, seguro, rapido
+                        y optimizado para que tu vestimenta llegue justo a tiempo.
+                    </p>
+                    <div class="centerFlex" style="width: 80%; justify-content: left;">
+                        <a id="btnPrinSM" class="btn btn-primary" href="ropa.html">Ver productos</a>
+                    </div>
+                </center>
+            </section>
+        </section><br><br>
+        <section class="row mainAs">
+            <aside class="col-12 col-sm-6 col-md-6 centerFlex">
+                <center>
+                    <img id="imgAside" src="mms/gaming.png" alt="img" class="imgAside transition">
+                </center>
+            </aside>
+            <section class="col-12 col-sm-6 col-md-6 centerFlex">
+                <center>
+                    <h6 class="h6S textL textSectionMain">Nuestras ventas especiales en</h6>
+                    <h1 id="hApart" class="h1S textL textSectionMain">GAMING</h1>
+                    <p id="infApart" class=" textL textSectionMain pLow">Equipos recientes para el mundo de los videojuegos, sirviendo tambien para
+                        trabajos de oficina, renderizado y muchos mas. Con los mejores materiales y componentes.
+                    </p>
+                    <div class="centerFlex" style="width: 80%; justify-content: left;">
+                        <a id="btnPrinSM" class="btn btn-primary" href="gaming.html">Ver productos</a>
+                    </div>
+                </center>
+            </section>
+        </section><br><br>
         <section id="secPr" class="row secSecon">
             <center>
                 <h6 class="h6S">Algunos de los</h6>
@@ -63,7 +93,7 @@
             <div class="col-sm-6 col-md-4">
                 <center>
                 <div class="card" style="width: 18rem;">
-                    <img src="productOne.jpg" class="card-img-top" alt="ASUS">
+                    <img src="./mms/productOne.jpg" class="card-img-top" alt="ASUS">
                     <div class="card-body">
                         <h5 class="card-title">ASUS TUF F15</h5>
                         <p class="pLow">15,010MX</p>
@@ -76,7 +106,7 @@
             <div class="col-sm-6 col-md-4">
                 <center>
                 <div class="card" style="width: 18rem;">
-                    <img src="productTwo.jpg" class="card-img-top" alt="LENOVO">
+                    <img src="./mms/productTwo.jpg" class="card-img-top" alt="LENOVO">
                     <div class="card-body">
                         <h5 class="card-title">Lenovo Laptop Gaming</h5>
                         <p class="pLow">17,800MX</p>
@@ -89,7 +119,7 @@
             <div class="col-sm-6 col-md-4">
                 <center>
                 <div class="card" style="width: 18rem;">
-                    <img src="productThree.jpg" class="card-img-top" alt="ROG">
+                    <img src="./mms/productThree.jpg" class="card-img-top" alt="ROG">
                     <div class="card-body">
                         <h5 class="card-title">ASUS ROG Strix</h5>
                         <p class="pLow">14,500MX</p>
@@ -102,7 +132,7 @@
             <div class="col-sm-6 col-md-4">
                 <center>
                 <div class="card" style="width: 18rem;">
-                    <img src="productFour.jpg" class="card-img-top" alt="REAL">
+                    <img src="./mms/productFour.jpg" class="card-img-top" alt="REAL">
                     <div class="card-body">
                         <h5 class="card-title">Jersey Real Madrid</h5>
                         <p class="pLow">1,299MX</p>
@@ -115,7 +145,7 @@
             <div class="col-sm-6 col-md-4">
                 <center>
                 <div class="card" style="width: 18rem;">
-                    <img src="productFive.jpg" class="card-img-top" alt="HAMDOG">
+                    <img src="./mms/productFive.jpg" class="card-img-top" alt="HAMDOG">
                     <div class="card-body">
                         <h5 class="card-title">Paquete HamDog</h5>
                         <p class="pLow">130MX</p>
@@ -128,7 +158,7 @@
             <div class="col-sm-6 col-md-4">
                 <center>
                 <div class="card" style="width: 18rem;">
-                    <img src="productSix.jpg" class="card-img-top" alt="DPER">
+                    <img src="./mms/productSix.jpg" class="card-img-top" alt="DPER">
                     <div class="card-body">
                         <h5 class="card-title">Dom Perignon</h5>
                         <p class="pLow">3,540MX</p>
@@ -146,7 +176,7 @@
             </center>
             <aside class="col-12 col-sm-6 col-md-6 centerFlex">
                 <center>
-                    <img src="bebidas.png" alt="img" class="imgAside transition">
+                    <img src="mms/bebidas.png" alt="img" class="imgAside transition">
                 </center>
             </aside>
             <section class="col-12 col-sm-6 col-md-6 centerFlex">
@@ -154,9 +184,9 @@
                     <p id="infApart" class=" textL textSectionMain pLow">En nuestra empresa, queremos asegurarle que el envio
                         es totalmente seguro y altamente calificado para transportar cualquier paquete.
                     </p><br>
-                    <label class="lblEn p6Tod transition"><img class="imgEn" src="ent.png" alt="">Envio gratis</label>
-                    <label class="lblEn p6Tod transition"><img class="imgEn" src="pag.png" alt="">Pago facil</label>
-                    <label class="lblEn p6Tod transition"><img class="imgEn" src="ser.png" alt="">Somos 24/7</label>
+                    <label class="lblEn p6Tod transition"><img class="imgEn" src="mms/ent.png" alt="">Envio gratis</label>
+                    <label class="lblEn p6Tod transition"><img class="imgEn" src="mms/pag.png" alt="">Pago facil</label>
+                    <label class="lblEn p6Tod transition"><img class="imgEn" src="mms/ser.png" alt="">Somos 24/7</label>
                     <div class="centerFlex" style="width: 80%; justify-content: left;">
                         <a id="btnNos" class="btn btn-primary" href="#footerPage">Nosotros</a>
                         <a id="btnSubir" class="btn" href="#contHn">Volver</a>
@@ -164,7 +194,7 @@
                 </center>
             </section>     
         </section><br><br>
-        <section id="secUbi" class="row secSecon">
+        <section id="secUbi" class="row secSecon" style="overflow: hidden;">
             <div class="col-md-6 centerFlex">
                 <center><br>
                     <h6 class="h6S">Aqui es</h6>
@@ -182,7 +212,7 @@
             <div class="col-md-4 col-sm-12">
                 <center>
                     <div class="card" style="width: 18rem;">
-                        <img src="a1.jpg" class="card-img-top" alt="Santiago">
+                        <img src="mms/miembros/a1.jpg" class="card-img-top" alt="Santiago">
                         <div class="card-body">
                             <p class="card-text">Guadarrama Granados Santiago</p>
                         </div>
@@ -192,7 +222,7 @@
             <div class="col-md-4 col-sm-12">
                 <center>
                     <div class="card" style="width: 18rem;">
-                        <img src="a2.jpg" class="card-img-top" alt="Manuel">
+                        <img src="mms/miembros/a2.jpg" class="card-img-top" alt="Manuel">
                         <div class="card-body">
                             <p class="card-text">Garcia Gonzalez Jose Manuel</p>
                         </div>
@@ -202,7 +232,7 @@
             <div class="col-md-4 col-sm-12">
                 <center>
                     <div class="card" style="width: 18rem;">
-                        <img src="a3.jpg" class="card-img-top" alt="David">
+                        <img src="mms/miembros/a3.jpg" class="card-img-top" alt="David">
                         <div class="card-body">
                             <p class="card-text">Chavez Castillo David</p>
                         </div>
@@ -231,8 +261,8 @@
                 <center>
                     <h1 class="h1Footer">Contacto</h1>
                     <p class="pLow">+52 5513086165</p>
-                    <p class="pLow">+52 7751641572</p>
-                    <p class="pLow">+52 7751384116</p>
+                    <p class="pLow">+52 7789906788</p>
+                    <p class="pLow">+52 7927812919</p>
                 </center>
             </div>
             <div class="col-md-3">
