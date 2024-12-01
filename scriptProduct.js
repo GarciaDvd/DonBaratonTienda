@@ -26,13 +26,13 @@ function changeProduct(opcion) {
     }
     switch(cate){ //Se evalua la variable con el nombre de la categoria para saber que ruta tomar en las carpetas
         case 'deportes':
-            img.src = './mms/deportes/'+index+'.png'; //Este sistema se basa en el nombre de la imagen, solo lo completamos con la inicial y las carpetas, el indice hace todo el trabajo
+            img.src = index+'.png'; //Este sistema se basa en el nombre de la imagen, solo lo completamos con la inicial y las carpetas, el indice hace todo el trabajo
         break;
         case 'gaming':
-            img.src = './mms/gaming/g'+index+'.png';
+            img.src = 'g'+index+'.png';
         break;
         case 'ropa':
-            img.src = './mms/ropa/r'+index+'.png';
+            img.src = 'r'+index+'.png';
         break;
     }
 }
